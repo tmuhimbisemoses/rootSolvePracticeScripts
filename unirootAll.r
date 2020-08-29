@@ -1,0 +1,5 @@
+library(rootSolve)
+curve(fun(x),0,8)
+abline(h=0,lty=3)
+All <- uniroot.all(fun,c(0,8))
+points(All, y=rep(0,length(All)),pch=16,cex=2)

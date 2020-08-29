@@ -1,0 +1,5 @@
+library(rootSolve)
+demo("Jacobandroots")
+demo("Steadystate")
+browseURL(paste(system.file(package="rootSolve"), "/doc", sep=""))
+vignette("rootSolve")
